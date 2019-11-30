@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-navbar color='primary'>
+
+        <button menuToggle ion-button icon-only>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Elite Schedule</ion-title>
+    </ion-navbar>
+    <ion-toolbar color="secondary">
+        <ion-title>
+            My Teams
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding no-lines>
+    <button ion-button full (click)='goToTournaments()'>Find a Tournament</button>
+    
+
+    <ion-tags-input [(ngModel)]="tags" [placeholder]="'add tag'" (onChange)="onChange($event)" ></ion-tags-input>
+    <div>
+        <div class="text">Hello</div>
+        <div class="text">Hello</div>
+    </div>
+    
+</ion-content>    
