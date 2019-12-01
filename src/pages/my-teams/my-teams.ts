@@ -9,7 +9,7 @@ import { TournamentsPage } from '../tournaments/tournaments';
 
 export class MyTeamsPage{
     isActiveDiv:boolean=false;
-    tags = ['Ionic', 'Angular', 'TypeScript'];
+    tags = ['Ionic', 'Angular'];
     constructor(private nav:NavController){}
 
     goToTournaments(){
